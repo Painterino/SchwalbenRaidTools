@@ -1,0 +1,32 @@
+## Interface: 100206
+## Title: |cff7381ffSchwalbenTools|r
+## Version: 1.2
+## Notes: Raid Tools für die Schwalben
+## Author: Painterino, Max
+## DefaultState: Enable
+## AddonCompartmentFunc: SRT_OnAddonCompartmentClick
+## IconTexture: Interface\AddOns\SchwalbenTools\Res\minimap
+## OptionalDeps: Ace3, CallbackHandler-1.0, LibDataBroker-1.1, LibDBIcon-1.0, LibQTip-1.0
+## SavedVariables: SRT_SenderReadyCheck
+## SavedVariables: SRT_ReadyCheckWatcher
+
+## SavedVariablesPerCharacter: SRT_PopupTextPosition
+## SavedVariablesPerCharacter: SRT_ReadyCheckEnabled
+## SavedVariablesPerCharacter: SRT_ReadyCheckFlashing
+Localization\Localization.enUS.lua
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+
+Core.lua
+Options\GeneralOptions.lua
+Popup.lua
+InfoBox.lua
+Modules\ReadyCheck.lua
+Options\ReadyCheckOptions.lua
+
+
+Options\Options.lua
+
+SchwalbenTools_Media.lua
