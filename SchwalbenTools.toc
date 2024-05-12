@@ -1,6 +1,6 @@
-## Interface: 100206
+## Interface: 100207
 ## Title: |cff7381ffSchwalbenTools|r
-## Version: 1.2
+## Version: 1.2.1
 ## Notes: Raid Tools für die Schwalben
 ## Author: Painterino, Max
 ## DefaultState: Enable
